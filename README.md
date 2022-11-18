@@ -1,9 +1,11 @@
 # Hiragana Handwriting Classification
 My proposed project during the KPT-PACE Machine Learning workshop is Hiragana Handwriting Classification. The objective of the project is classify each handwritten hiragana character to determine the diffences between one character with another.
 
+![japanese handwriting](https://www.fluentin3months.com/wp-content/uploads/2021/09/hiragana-vs-katakana.jpg)
+
 Before starting, make sure you have already installed Python and Pytorch and run inside your Docker or Environemnt.
 
-#1) Download project to your Jetson Nano:
+# 1) Download project to your Jetson Nano:
 ```
 git clone https://github.com/ameerusyamiru
 ```
