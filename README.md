@@ -7,7 +7,8 @@ Before starting, make sure you have already installed Python and Pytorch and run
 
 # 1) Download project to your Jetson Nano:
 ```
-git clone https://github.com/ameerusyamiru
+git clone https://github.com/ameerusyamiru/Hiragana_handwriting_classification.git
+
 ```
 ```
 pip install -r requirements.txt
