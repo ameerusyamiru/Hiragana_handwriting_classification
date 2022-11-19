@@ -13,6 +13,6 @@ git clone https://github.com/ameerusyamiru
 pip install -r requirements.txt
 ```
 
-It is also can be download into your local machine before starting the training. Use `pip` command to install the required modules. Place your dataset inside `/data` folder. You may use your own dataset or find it from [Kaggle](https://www.kaggle.com).
+It is also can be download into your local machine before starting the training. Use `pip` command to install the required modules. Place your dataset inside `/data` folder. You may use your own dataset or find it from [inoueMashuu's github](https://github.com/inoueMashuu/hiragana-dataset).
 Before start training your dataset, make sure all the requirement listed in `requirement.txt` are installed inside your Docker or Environment
 
