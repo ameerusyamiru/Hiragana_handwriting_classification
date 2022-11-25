@@ -19,7 +19,7 @@ Before start training your dataset, make sure all the requirement listed in `req
 
 # 2) To start training your dataset, run this:
 ```
-python train.py --model-dir=models/apple --epochs=50 --batch-size=4 --workers=2 --lr=0.001 --arch=resnet34 data/hiragana
+python train.py --model-dir=models/hiragana --epochs=50 --batch-size=4 --workers=2 --lr=0.001 --arch=resnet34 data/hiragana
 ```
 You can adjust the epoch, batch size, learning rate and pre-trained model accordingly. The model file will be save inside `/models/hiragana` with name `model_best.pth.tar`
 
@@ -27,7 +27,7 @@ You can adjust the epoch, batch size, learning rate and pre-trained model accord
 ```
 python onnx_export.py --model-dir=models/hiragana
 ```
-You will find a file inside `/models/apple` with name `resnet34.onnx`. The file will depends on the pretrained model name that you use during the training.You can also download the file from my drive,
+You will find a file inside `/models/hiragana` with name `resnet34.onnx`. The file will depends on the pretrained model name that you use during the training.You can also download the file from my drive,
 ```
 gdown https://drive.google.com/uc?id=1JDL9Ttwepzze0nQJobEIxUsownitDeAF
 or
@@ -49,6 +49,6 @@ gdown https://drive.google.com/uc?id=1irmM1qMHo178qSXRtO-36UOSY3JxqKeC
 >```
 To check which webcam available in your jetson, run `/dev/video*` in the terminal before running inference code.
 
-**Please comment any improvement that can be add into the code.Thank you for using this programs.**
+**Any comments or suggestions for improvement are very welcome. Thank you!**
 
 Here my full video on this project:
