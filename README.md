@@ -23,7 +23,7 @@ python train.py --model-dir=models/apple --epochs=50 --batch-size=4 --workers=2 
 ```
 You can adjust the epoch, batch size, learning rate and pre-trained model accordingly. The model file will be save inside `/models/hiragana` with name `model_best.pth.tar`
 
-***3) After finish training, run the conversion file `onnx_export.py` to convert the tar format to onnx format:***
+# 3) After finish training, run the conversion file `onnx_export.py` to convert the tar format to onnx format:
 ```
 python onnx_export.py --model-dir=models/hiragana
 ```
@@ -34,7 +34,7 @@ or
 gdown https://drive.google.com/uc?id=1irmM1qMHo178qSXRtO-36UOSY3JxqKeC
 ```
 
-***4) To run the inference:***
+# 4) To run the inference:
 >from image:
 >```
 >python imagenet.py --model=models/hiragana/resnet34.onnx --input_blob:input_0 --output_blob:output_0 --labels=data/hiragana/labels.txt image.jpg
